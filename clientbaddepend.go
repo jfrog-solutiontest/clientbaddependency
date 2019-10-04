@@ -1,11 +1,11 @@
-package clientdependency
+package main
 
 import (
     "fmt"
     "github.com/jfrog-solutiontest/baddependency"
 )
 
-func clientdependency () {
+func main() {
     fmt.Println ("Hello World, main here")
     baddependency.ModuleTestPackageName()
 }
